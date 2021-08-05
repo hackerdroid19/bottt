@@ -1,15 +1,11 @@
 import re
-import random
-import string
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
-from colorama import init 
-from termcolor import colored, cprint 
 import time
 import requests
-from pyfiglet import Figlet
+
 init()
 
 options = webdriver.ChromeOptions()
@@ -32,7 +28,7 @@ driver.get("https://web.telegram.org/k/")
 time.sleep(2)
 driver.find_element_by_xpath('//*[@id="auth-pages"]/div/div[2]/div[2]/div/div[2]/button').click()
 time.sleep(3)
-print(colored('numero','blue'))
+
 
 driver.find_element_by_name('phone').clear()
 driver.find_element_by_name('phone').send_keys('+573203443445')
