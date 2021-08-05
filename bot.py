@@ -21,7 +21,7 @@ options.add_argument('--disable-dev-sh-usage')
 @bot.message_handler(commands=['cmd'])
 def send_welcome(message):
 		driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=options)
-		driver.get('https://www.edatel.com.co/mi-ip')
+		driver.get('https://whoer.net/es')
 		time.sleep(1)
 		mymacs = driver.find_element_by_xpath('/html').text
 		print(mymacs)
