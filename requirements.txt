@@ -1,4 +1,5 @@
-timer==0.1.2
+timer==0.1.2; python_version >= "3.6" \
+    --hash=sha256:6065d974cef5f4cad53108bf94ab251f9701b49b5a1e66a28122988406559ef1
 apscheduler==3.6.3; python_version >= "3.6" \
     --hash=sha256:e8b1ecdb4c7cb2818913f766d5898183c7cb8936680710a4d3a966e02262e526 \
     --hash=sha256:3bb5229eed6fbbdafc13ce962712ae66e175aa214c69bed35a06bffcf0c5e244
