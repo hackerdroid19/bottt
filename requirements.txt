@@ -1,3 +1,4 @@
+selenium==3.141.0
 timer==0.1.2; python_version >= "3.6" \
     --hash=sha256:6065d974cef5f4cad53108bf94ab251f9701b49b5a1e66a28122988406559ef1
 apscheduler==3.6.3; python_version >= "3.6" \
